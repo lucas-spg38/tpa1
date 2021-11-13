@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        IMC
+    </header> 
+ <section>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="entrada" id="nome" ><br><br>
+        </div>
+        <div>
+            <label for="peso">Peso (Kg): </label>
+            <input type="text" name="entrada" id="peso" ><br><br>
+        </div>
+        <div>
+            <label for="altura">Altura (Metros):</label>
+            <input type="text" name="entrada" id="altura"><br><br>
+        </div>
+        <label id="calcular">
+            <input type="button" value="Calcular" onclick="calcularImc()"/><br><br>
+          </label>
+       
+          <div id="resultado">
+           <span>Resultado: </span>
+            <span id="imc"></span>
+            <span id="res"></span>
+          </div>
+       
+    </section>
+
+    
+    <footer>COTEMIG</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
